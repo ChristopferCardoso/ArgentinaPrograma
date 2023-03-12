@@ -5,10 +5,7 @@
     box-sizing: border-box;
     list-style: none;
 }
-body{
-    background-color: rgba(120, 93, 189, 0.177);
-    font-family: 'Noto Sans', sans-serif;
-}
+
 .contenedor{
     min-height: 120vh;
     width: 80%;
@@ -261,4 +258,18 @@ body{
     .texto-perfil{
         font-size: 1.5rem;
     }  
+}
+img.zoom {
+    width: 250px;
+    height: 300px;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+.transition {
+    -webkit-transform: scale(1.3); 
+    -moz-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    transform: scale(1.3);
 }
